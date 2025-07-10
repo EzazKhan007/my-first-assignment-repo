@@ -86,3 +86,33 @@ nav li a{
 .section-pic{
     border-radius: 48px;
 }
+.section-title-2{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    display: flex;
+     justify-content: center;
+}
+.section-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+   
+}
+.about{
+    background-color: rgb(78, 71, 255, 10%);
+    margin: 116px 159px 137px 141px;
+    padding: 50px 80px;
+    border-radius: 24px;
+}
+.about-title{
+    font-size: 80px;
+    color: #4E47FF;
+    margin: 0px;
+}
+.user{
+    font-size: 20px;
+    color: #000000;
+    margin-top: 0px;
+}
