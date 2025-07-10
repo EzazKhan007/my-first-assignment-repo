@@ -116,3 +116,9 @@ nav li a{
     color: #000000;
     margin-top: 0px;
 }
+.text-center{
+    text-align: center;
+}
+.skill-container{
+    display: flex;
+}
