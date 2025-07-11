@@ -59,7 +59,7 @@
       <div class="testimonial-card">
         <div class="stars">★★★★★</div>
         <div class="testimonial-title">Loved by Designers</div>
-        <p>This template instantly leveled up our presence – Studio Vetra</p>
+        <p class="testimonial-description">This template instantly leveled up our presence – Studio Vetra</p>
         <!-- Reviewer Block -->
 <div class="reviewer-block">
   <img src="./Assets/avatar.png" alt="Reviewer photo" class="reviewer-img">
@@ -70,7 +70,7 @@
 </div>
 
       </div>
-      <div class="testimonial-card" style="border: 1px dashed #4f46e5;">
+      <div class="testimonial-card">
         <div class="stars">★★★★★</div>
         <div class="testimonial-title">Loved by Designers</div>
         <p>This template instantly leveled up our presence – Studio Vetra</p>
@@ -103,10 +103,10 @@
     <!-- Focus Section -->
     <div class="focus-section">
         <div class="focus-section-container">
-      <h2>Ready to focus better</h2>
+      <h2 style="margin: 0;">Ready to focus better</h2>
       <p>This template instantly leveled up our presence” — Studio Vetra</p>
-      <button class="focus-section-button">Get Started Free</button>
-      <img src="./Assets/wc-big.png" alt="Webflow Conf 2022 Image" />
+      <button class="btn-primary">Get Started Free</button>
+      <img class="focus-section-image" src="./Assets/wc-big.png" alt="Webflow Conf 2022 Image" />
       </div>
     </div>
 
@@ -114,10 +114,26 @@
     <div class="contact-section">
       <div class="contact-text">Let’s Get in Touch</div>
       <form class="contact-form">
-        <input type="email" placeholder="example@email.com" required />
-        <input type="text" placeholder="full name" required />
-        <textarea rows="5" placeholder="write your message...." required></textarea>
-        <button type="submit">Get in Touch</button>
+
+        <div class="contact-input-wrapper">
+          <label>Email</label>
+          <input type="email" placeholder="example@email.com" required />
+        </div>
+
+        <div class="contact-input-wrapper">
+          <label>Name</label>
+            <input type="text" placeholder="full name" required />
+        </div>
+
+
+          <div class="contact-input-wrapper">
+          <label>Message</label>
+          <textarea rows="5" placeholder="write your message...." required></textarea>
+        </div>
+        
+      
+        
+        <button class="btn-primary" type="submit">Get in Touch</button>
       </form>
     </div>
   </div> 
