@@ -52,6 +52,10 @@ nav li a{
      border: none;
 }
 
+.btn-primary:hover{
+    background-color: #4d47ffcd;
+}
+
 .banner{
   padding:  261px 267.5px 200px 267.5px;
 }
